@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', arial;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+.header, .intro{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding: 20px 0px 20px 100px;
+}
+
+.header{
+    justify-content: space-between;
+}
+
+.headerText{
+    color: pink;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links a{
+    text-decoration: none;
+    gap: 15px;
+    padding-right: 10px;
+    color: #E5E7EB;
+    font-size:18px;
+
+}
+
+/*info*/
+.intro{
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+.introText{
+    font-size: 48px;
+    font-weight: bold;
+}
+.left{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    gap: 20px;
+}
+.introSubText{
+    color: #E5E7EB;
+    font-size:18px;
+}
+
+/* info */
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    text-align: center;
+}
+
+.infoText{
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.boxes{
+    display: flex;
+    gap: 30px;
+}
+
+.boxes p{
+    max-width: 200px;
+}
+
+#corner{
+    border-radius: 25px;
+    border: 2px solid #1F2937;
+    padding: 20px; 
+    width: 150px;
+    height: 150px;  
+}
+
+/* quote */
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+    padding-bottom: 50px;
+}
+
+.quoteText{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.quote b{
+    font-size: 20px;
+    text-align: right;
+    
+}
+
+/* sign up */
+.sign-up{
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;
+    padding: 10px 80px;
+}
+
+.signts-text{
+    text-align: left;
+}
+
+.sign-item{
+    flex: 1;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+}
